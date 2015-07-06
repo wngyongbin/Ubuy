@@ -14,6 +14,8 @@
 		CE6134171B4A65D40053072F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6134151B4A65D40053072F /* LaunchScreen.storyboard */; };
 		CE6134221B4A65D40053072F /* UbuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6134211B4A65D40053072F /* UbuyTests.swift */; };
 		CE61342D1B4A65D40053072F /* UbuyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE61342C1B4A65D40053072F /* UbuyUITests.swift */; };
+		CEEF4E8A1B4A743E00E296E9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF4E891B4A743E00E296E9 /* MainViewController.swift */; };
+		CEEF4E8C1B4A777D00E296E9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEF4E8B1B4A777D00E296E9 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		CE6134281B4A65D40053072F /* UbuyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UbuyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE61342C1B4A65D40053072F /* UbuyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbuyUITests.swift; sourceTree = "<group>"; };
 		CE61342E1B4A65D40053072F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEF4E7F1B4A725900E296E9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CEEF4E891B4A743E00E296E9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CEEF4E8B1B4A777D00E296E9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +113,7 @@
 				CE6134131B4A65D40053072F /* Assets.xcassets */,
 				CE6134151B4A65D40053072F /* LaunchScreen.storyboard */,
 				CE6134181B4A65D40053072F /* Info.plist */,
+				CEEF4E7F1B4A725900E296E9 /* PrefixHeader.pch */,
 			);
 			path = Ubuy;
 			sourceTree = "<group>";
@@ -154,6 +160,9 @@
 		CEEF4E791B4A719300E296E9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				CEEF4E801B4A73A700E296E9 /* 首页 */,
+				CEEF4E831B4A73A700E296E9 /* 我的 */,
+				CEEF4E861B4A73A700E296E9 /* 消息 */,
 				CEEF4E7A1B4A719300E296E9 /* 登录 */,
 			);
 			path = Controllers;
@@ -187,6 +196,77 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		CEEF4E801B4A73A700E296E9 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				CEEF4E891B4A743E00E296E9 /* MainViewController.swift */,
+				CEEF4E811B4A73A700E296E9 /* Model */,
+				CEEF4E821B4A73A700E296E9 /* Reform */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		CEEF4E811B4A73A700E296E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEEF4E821B4A73A700E296E9 /* Reform */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reform;
+			sourceTree = "<group>";
+		};
+		CEEF4E831B4A73A700E296E9 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				CEEF4E8B1B4A777D00E296E9 /* HomeViewController.swift */,
+				CEEF4E841B4A73A700E296E9 /* Model */,
+				CEEF4E851B4A73A700E296E9 /* Reform */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		CEEF4E841B4A73A700E296E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEEF4E851B4A73A700E296E9 /* Reform */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reform;
+			sourceTree = "<group>";
+		};
+		CEEF4E861B4A73A700E296E9 /* 消息 */ = {
+			isa = PBXGroup;
+			children = (
+				CEEF4E871B4A73A700E296E9 /* Model */,
+				CEEF4E881B4A73A700E296E9 /* Reform */,
+			);
+			path = "消息";
+			sourceTree = "<group>";
+		};
+		CEEF4E871B4A73A700E296E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEEF4E881B4A73A700E296E9 /* Reform */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reform;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,8 +399,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEEF4E8A1B4A743E00E296E9 /* MainViewController.swift in Sources */,
 				CE61340F1B4A65D40053072F /* ViewController.swift in Sources */,
 				CE61340D1B4A65D40053072F /* AppDelegate.swift in Sources */,
+				CEEF4E8C1B4A777D00E296E9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
