@@ -97,6 +97,11 @@
 		CE61340B1B4A65D40053072F /* Ubuy */ = {
 			isa = PBXGroup;
 			children = (
+				CEEF4E791B4A719300E296E9 /* Controllers */,
+				CEEF4E781B4A719300E296E9 /* Components */,
+				CEEF4E761B4A719300E296E9 /* Assistants */,
+				CEEF4E771B4A719300E296E9 /* Categories */,
+				CEEF4E7D1B4A719300E296E9 /* Services */,
 				CE61340C1B4A65D40053072F /* AppDelegate.swift */,
 				CE61340E1B4A65D40053072F /* ViewController.swift */,
 				CE6134101B4A65D40053072F /* Main.storyboard */,
@@ -123,6 +128,65 @@
 				CE61342E1B4A65D40053072F /* Info.plist */,
 			);
 			path = UbuyUITests;
+			sourceTree = "<group>";
+		};
+		CEEF4E761B4A719300E296E9 /* Assistants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assistants;
+			sourceTree = "<group>";
+		};
+		CEEF4E771B4A719300E296E9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CEEF4E781B4A719300E296E9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CEEF4E791B4A719300E296E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEEF4E7A1B4A719300E296E9 /* 登录 */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEEF4E7A1B4A719300E296E9 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				CEEF4E7C1B4A719300E296E9 /* Reform */,
+				CEEF4E7B1B4A719300E296E9 /* Model */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		CEEF4E7B1B4A719300E296E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEEF4E7C1B4A719300E296E9 /* Reform */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Reform;
+			sourceTree = "<group>";
+		};
+		CEEF4E7D1B4A719300E296E9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -481,6 +545,7 @@
 				CE6134331B4A65D40053072F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE6134341B4A65D40053072F /* Build configuration list for PBXNativeTarget "UbuyTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +554,7 @@
 				CE6134361B4A65D40053072F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE6134371B4A65D40053072F /* Build configuration list for PBXNativeTarget "UbuyUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +563,7 @@
 				CE6134391B4A65D40053072F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
